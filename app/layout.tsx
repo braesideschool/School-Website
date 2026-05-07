@@ -39,6 +39,9 @@ export const metadata: Metadata = {
     description: "Premier ICSE-affiliated school in Ooty — shaping tomorrow's leaders since 2008.",
     images: [{ url: "/images/campus-aerial.jpeg" }],
   },
+  verification: {
+    google: "T485SnMDTDQt2xSn0vGVeVaAHBQnNLTFOV2ajJ4Bs1E",
+  },
 };
 
 export default function RootLayout({
