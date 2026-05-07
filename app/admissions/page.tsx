@@ -286,19 +286,43 @@ export default function AdmissionsPage() {
               </div>
             </ScrollReveal>
 
-            {/* Second Account — Coming Soon Placeholder */}
+            {/* BOI Account */}
             <ScrollReveal type="right">
-              <div className="bg-white rounded-2xl p-7 border-2 border-dashed border-gold/40 shadow-sm relative overflow-hidden h-full flex flex-col items-center justify-center text-center min-h-[340px]">
-                <div className="absolute -top-12 -right-12 w-32 h-32 bg-gradient-to-br from-gold/10 to-crimson/10 rounded-full blur-2xl" />
+              <div className="bg-white rounded-2xl p-7 border-2 border-gold/30 shadow-lg relative overflow-hidden group hover:border-gold transition-all duration-300">
+                {/* Decorative gradient corner */}
+                <div className="absolute -top-12 -right-12 w-32 h-32 bg-gradient-to-br from-gold/15 to-crimson/10 rounded-full blur-2xl" />
+
                 <div className="relative">
-                  <div className="w-16 h-16 bg-gradient-to-br from-gold to-gold-dark rounded-2xl flex items-center justify-center text-white text-3xl mx-auto mb-5 shadow-md">🏦</div>
-                  <div className="text-xs text-gold-dark font-bold tracking-widest uppercase mb-2">Account 2</div>
-                  <h3 className="font-display font-bold text-navy text-xl mb-3">Additional Bank Account</h3>
-                  <p className="text-muted text-sm leading-relaxed max-w-xs mx-auto">
-                    Details for our second bank account will be updated here soon. Please use Account 1 above for current payments.
-                  </p>
-                  <div className="mt-5 inline-flex items-center gap-2 bg-gold-light text-gold-dark text-xs font-bold tracking-widest uppercase px-4 py-1.5 rounded-full">
-                    🕐 Coming Soon
+                  <div className="flex items-center justify-between mb-5">
+                    <div className="flex items-center gap-3">
+                      <div className="w-12 h-12 bg-gradient-to-br from-gold to-gold-dark rounded-xl flex items-center justify-center text-white font-display font-bold text-xl shadow-md">🏦</div>
+                      <div>
+                        <div className="text-xs text-gold-dark font-bold tracking-widest uppercase">Account 2</div>
+                        <div className="font-display font-bold text-navy text-xl">Bank of India</div>
+                      </div>
+                    </div>
+                    <div className="bg-green-50 text-green-700 text-xs font-bold tracking-widest uppercase px-3 py-1 rounded-full border border-green-200">
+                      ✓ Active
+                    </div>
+                  </div>
+
+                  <div className="space-y-3 mt-6">
+                    <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-1 py-3 border-b border-border">
+                      <div className="text-xs text-muted font-bold tracking-widest uppercase">Account Holder</div>
+                      <div className="font-semibold text-navy text-right">Braeside International School</div>
+                    </div>
+                    <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-1 py-3 border-b border-border">
+                      <div className="text-xs text-muted font-bold tracking-widest uppercase">Account Number</div>
+                      <div className="font-mono font-bold text-navy text-lg tracking-wider">823810210000027</div>
+                    </div>
+                    <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-1 py-3 border-b border-border">
+                      <div className="text-xs text-muted font-bold tracking-widest uppercase">IFSC Code</div>
+                      <div className="font-mono font-bold text-navy text-lg tracking-wider">BKID0008238</div>
+                    </div>
+                    <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-1 py-3">
+                      <div className="text-xs text-muted font-bold tracking-widest uppercase">Bank</div>
+                      <div className="font-semibold text-navy">Bank of India (BOI)</div>
+                    </div>
                   </div>
                 </div>
               </div>

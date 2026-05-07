@@ -9,7 +9,18 @@ const galleryItems = [
   { src: "/images/campus-main-2.jpg", label: "Campus — Front View", cat: "Campus" },
   { src: "/images/campus-main-3.jpg", label: "Campus — Skating & Hostel", cat: "Campus" },
   { src: "/images/campus-main-4.jpg", label: "Campus — Wide View", cat: "Campus" },
-  // Newest event photos
+  // Latest gallery additions
+  { src: "/images/gallery/g7.jpeg", label: "Campus Life", cat: "Campus" },
+  { src: "/images/gallery/g8.jpeg", label: "Campus Life", cat: "Campus" },
+  { src: "/images/gallery/g9.jpeg", label: "Student Activities", cat: "Students" },
+  { src: "/images/gallery/g10.jpeg", label: "Student Activities", cat: "Students" },
+  { src: "/images/gallery/g11.jpeg", label: "Student Activities", cat: "Students" },
+  { src: "/images/gallery/g12.jpeg", label: "School Moments", cat: "Events" },
+  { src: "/images/gallery/g13.jpeg", label: "School Moments", cat: "Events" },
+  { src: "/images/gallery/g14.jpeg", label: "School Moments", cat: "Events" },
+  { src: "/images/gallery/g15.jpeg", label: "School Life", cat: "Campus" },
+  { src: "/images/gallery/g16.jpeg", label: "School Life", cat: "Campus" },
+  // Earlier event photos
   { src: "/images/gallery/event-1.jpeg", label: "School Event", cat: "Events" },
   { src: "/images/gallery/event-2.jpeg", label: "School Event", cat: "Events" },
   { src: "/images/gallery/event-3.jpeg", label: "School Event", cat: "Events" },
