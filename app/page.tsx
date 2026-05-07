@@ -60,7 +60,7 @@ export default function Home() {
   return (
     <>
       {/* ── HERO — Full school photo with centered logo + name at top ── */}
-      <section className="relative min-h-screen overflow-hidden bg-gradient-to-br from-white via-crimson-tint to-white pb-20">
+      <section className="relative overflow-hidden bg-gradient-to-br from-white via-crimson-tint to-white pb-20">
         {/* Soft decorative orbs */}
         <div className="absolute -top-32 -left-32 w-96 h-96 bg-crimson/10 rounded-full blur-3xl pointer-events-none" />
         <div className="absolute -bottom-20 -right-20 w-96 h-96 bg-gold/10 rounded-full blur-3xl pointer-events-none" />
