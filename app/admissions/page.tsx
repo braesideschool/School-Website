@@ -192,7 +192,6 @@ export default function AdmissionsPage() {
                   <div className="space-y-4">
                     {[
                       { label: "Admissions Office", val: "+91 94436 69586", href: "tel:+919443669586", icon: "📞" },
-                      { label: "WhatsApp", val: "+91 94436 69586", href: "https://wa.me/919443669586", icon: "💬" },
                       { label: "Email", val: "braesideschool6666@gmail.com", href: "mailto:braesideschool6666@gmail.com", icon: "📧" },
                     ].map((c) => (
                       <a key={c.label} href={c.href} target={c.href.startsWith("http") ? "_blank" : undefined} rel="noopener noreferrer"
