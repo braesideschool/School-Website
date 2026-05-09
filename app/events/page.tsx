@@ -33,7 +33,7 @@ const events = [
     name: "Christmas Celebration",
     month: "December",
     icon: "🎄",
-    img: "https://images.unsplash.com/photo-1481671703460-040cb8a2d909?auto=format&fit=crop&w=800&q=80",
+    img: "/images/gallery/christmas.jpeg",
     desc: "A joyful, campus-wide Christmas festival that brings students, faculty and families together — with carol singing, nativity plays, gift exchanges, cultural exchange programmes and festive decorations throughout campus.",
     highlights: ["Carol Singing Competition", "Nativity Play", "Gift Exchange", "Festive Campus Decoration"],
   },
