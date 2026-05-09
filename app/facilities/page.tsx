@@ -152,10 +152,10 @@ const facilities = [
     icon: "🚌",
   },
   {
-    name: "Residential Boarding",
+    name: "Premium Boarding School",
     category: "Campus Life",
-    img: "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&w=800&q=80",
-    realImg: null,
+    img: "/images/hostel.jpg",
+    realImg: "/images/hostel.jpg",
     desc: "Comfortable, well-maintained residential boarding for boys and girls. Reliable power, potable water, supervised accommodation, nutritious meals and regular outings included.",
     icon: "🏠",
   },

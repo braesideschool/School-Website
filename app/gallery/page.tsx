@@ -17,7 +17,6 @@ const galleryItems = [
   { src: "/images/gallery/g11.jpeg", label: "Student Activities", cat: "Students" },
   { src: "/images/gallery/g12.jpeg", label: "School Moments", cat: "Events" },
   { src: "/images/gallery/g13.jpeg", label: "School Moments", cat: "Events" },
-  { src: "/images/gallery/g14.jpeg", label: "School Moments", cat: "Events" },
   { src: "/images/gallery/g15.jpeg", label: "School Life", cat: "Campus" },
   { src: "/images/gallery/g16.jpeg", label: "School Life", cat: "Campus" },
   // Earlier event photos
@@ -33,8 +32,7 @@ const galleryItems = [
   { src: "/images/gallery/sis-students-turf.jpeg", label: "Students on the Football Turf", cat: "Students" },
   { src: "/images/gallery/field-trip-group.jpeg", label: "School Group Outing", cat: "Events" },
   { src: "/images/gallery/botanical-garden.jpeg", label: "Botanical Garden Field Trip", cat: "Events" },
-  { src: "/images/gallery/christmas-santa-kids.jpeg", label: "Christmas Celebration", cat: "Events" },
-  { src: "/images/gallery/christmas-santas.jpeg", label: "Christmas at Braeside", cat: "Events" },
+  { src: "/images/gallery/christmas.jpeg", label: "Christmas Celebration", cat: "Events" },
   // Earlier general photos
   { src: "/images/gallery/photo-1.jpeg", label: "Campus Moment", cat: "Campus" },
   { src: "/images/gallery/photo-2.jpeg", label: "School Life", cat: "Campus" },
