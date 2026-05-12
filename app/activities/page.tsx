@@ -154,7 +154,7 @@ export default function ActivitiesPage() {
                   <Image src="/images/skating.jpeg" alt="Skating" width={300} height={192} className="object-cover w-full h-full" />
                 </div>
                 <div className="rounded-xl overflow-hidden h-48">
-                  <Image src="/images/swimming.png" alt="Swimming pool" width={300} height={192} className="object-cover w-full h-full" />
+                  <Image src="/images/swimming-new.jpeg" alt="Swimming pool" width={300} height={192} className="object-cover w-full h-full" />
                 </div>
               </div>
             </ScrollReveal>

@@ -18,7 +18,7 @@ const facilities = [
   {
     name: "Heated Swimming Pool",
     category: "Sports",
-    img: "/images/swimming.png",
+    img: "/images/swimming-new.jpeg",
     realImg: null,
     desc: "A year-round, temperature-controlled heated swimming pool with professional coaching for young swimmers of all skill levels. The perfect facility to develop competitive student swimmers in the cool Ooty climate.",
     icon: "🏊",

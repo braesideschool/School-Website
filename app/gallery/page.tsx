@@ -38,7 +38,7 @@ const galleryItems = [
   { src: "/images/gallery/photo-2.jpeg", label: "School Life", cat: "Campus" },
   { src: "/images/gallery/photo-3.jpeg", label: "Braeside Memories", cat: "Campus" },
   // Sports
-  { src: "/images/swimming.png", label: "Heated Swimming Pool", cat: "Facilities" },
+  { src: "/images/swimming-new.jpeg", label: "Heated Swimming Pool", cat: "Facilities" },
   { src: "/images/football-turf.jpeg", label: "Floodlit Football Turf", cat: "Sports" },
   { src: "/images/basketball-2.jpeg", label: "Synthetic Basketball Court", cat: "Sports" },
   { src: "/images/skating.jpeg", label: "Skating Rink", cat: "Sports" },
